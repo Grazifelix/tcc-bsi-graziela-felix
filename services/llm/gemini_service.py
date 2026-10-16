@@ -10,7 +10,7 @@ class GeminiProvider(BaseLLMProvider):
         # if not api_key:
         #     raise ValueError("GEMINI_API_KEY não configurada no ambiente.")
         # self.client = genai.Client(api_key=api_key)
-        self.client = genai.Client(api_key="AQ.Ab8RN6IMORlh3MdIuNrtpfvQnMA8o8lr0qv6Zt8S4aMrWMb9pQ")
+        self.client = genai.Client(api_key="")
         self.model_name = model_name
 
     def generate_json(self, prompt: str) -> dict:
